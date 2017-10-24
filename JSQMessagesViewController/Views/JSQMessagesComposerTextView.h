@@ -55,7 +55,9 @@
 /**
  *  The object that acts as the paste delegate of the text view.
  */
-@property (weak, nonatomic) id<JSQMessagesComposerTextViewPasteDelegate> pasteDelegate;
+
+@property (weak, nonatomic, nullable) id<JSQMessagesComposerTextViewPasteDelegate> jsqPasteDelegate;
+
 
 /**
  *  Determines whether or not the text view contains text after trimming white space 
